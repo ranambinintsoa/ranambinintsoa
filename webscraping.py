@@ -7,7 +7,7 @@
 - ⚡ Fun fact: ...
 
 <!---
-ranambinintsoa/ranambinintsoa is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+ranambinintsoa/ranambinintsoa is a ✨ special ✨ repository because its `README.py` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
 import pandas as pd
@@ -173,7 +173,7 @@ def send_email(email_list, csv_file_path):
 
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
-    server.login('marka.ranambinintsoa@aims.ac.rw', '1997marka')
+    server.login('marka.ranambinintsoa@aims.ac.rw', '1234')
     server.sendmail('adiza.sandah@aims.ac.rw', email_list, text.as_string())
     server.sendmail('mariama.jammeh@aims.ac.rw', email_list, text.as_string())
     server.sendmail('miujiza.zirimwabagabo@aims.ac.rw', email_list, text.as_string())
